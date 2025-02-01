@@ -31,7 +31,7 @@ Ce script PowerShell permet de **sauvegarder automatiquement le contenu d'une cl
 2. Placez le fichier `usb_backup.ps1` dans un dossier de votre choix.
 
 ## 💡 Utilisation
-1. **Modifier les paramètres** dans le script (`usb_backup.ps1`) :
+1. **Modifier les paramètres** dans le fichier (`config.json`) :
    - `$usbVolumeName = "MA_CLE_USB"` (Nom de la clé USB)
    - `$backupRoot = "C:\Users\VotreNom\Documents\SauvegardesUSB"` (Chemin de sauvegarde)
    - `$useTimestampedFolder = $true` (Activer les dossiers horodatés)
@@ -52,7 +52,7 @@ usb-backup/
 ├── usb_backup.ps1  # Script principal PowerShell
 ├── backup_log.txt  # Journalisation des sauvegardes (généré automatiquement)
 ├── README.md       # Documentation
-├── config.json     # Fichier de configuration (optionnel)
+├── config.json     # Fichier de configuration
 ```
 
 ## 📘 Licence
