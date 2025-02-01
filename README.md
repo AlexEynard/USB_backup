@@ -17,6 +17,11 @@ Ce script PowerShell permet de **sauvegarder automatiquement le contenu d'une cl
 ## 📝 Installation
 ### Prérequis
 - **Windows** avec PowerShell 5.1 ou plus.
+- Autoriser l'exécution des scripts
+PowerShell restreint l'exécution des scripts par défaut. Si vous voyez une erreur indiquant que l'exécution des scripts est désactivée, ouvrez PowerShell en tant qu'administrateur et exécutez la commande suivante :
+```powershell
+  Set-ExecutionPolicy Unrestricted -Scope Process
+  ```
 - Module **BurntToast** pour les notifications (facultatif) :
   ```powershell
   Install-Module BurntToast -Scope CurrentUser
