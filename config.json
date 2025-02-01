@@ -1,0 +1,24 @@
+{
+    "usbVolumeName": "MA_CLE_USB",
+    "backupRoot": "C:\\Users\\VotreNom\\Documents\\SauvegardesUSB",
+    "minFreeSpaceMB": 500,
+    "useTimestampedFolder": true,
+    "sendEmailOnError": false,
+    "emailSettings": {
+        "smtpServer": "smtp.votresmtp.com",
+        "from": "backup@votre-domaine.com",
+        "to": "admin@votre-domaine.com",
+        "subject": "Erreur Backup USB",
+        "port": 587,
+        "useSsl": true,
+        "credential": {
+            "username": "votre_utilisateur",
+            "password": "votre_mot_de_passe"
+        }
+    },
+    "silentMode": false,
+    "excludedFileTypes": [
+        "*.tmp",
+        "*.log"
+    ]
+}
